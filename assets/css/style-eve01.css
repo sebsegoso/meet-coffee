@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+#articulos {
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 9rem 0rem 3.125rem 0rem;
+}
+
+#articulos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#articulos h2,
+#articulos img{
+  margin-bottom: 3.125rem;
+}
+
+#articulos p{
+  margin-bottom: 1.5rem;
+}
+
+/* De aqui en adelante Header y Footer*/
+
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 4.5rem;
+  padding: 3.125rem;
+}
+
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100vw;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+.icono {
+  width: 2rem;
+}
+.icono svg {
+  fill: #ffffff;
+}
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
